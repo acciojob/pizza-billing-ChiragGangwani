@@ -49,7 +49,7 @@ public class Pizza {
             this.bill += "Extra Toppings Added: 70\n";
             this.isTopping=true;
         }
-        else{
+        else if(!isTopping && !isVeg){
             this.price += 120;
             this.bill += "Extra Toppings Added: 120\n";
             this.isTopping=true;
